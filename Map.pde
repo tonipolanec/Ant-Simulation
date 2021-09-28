@@ -40,8 +40,8 @@ class Map {
 
 
   void display() {
-    loadPixels();   
     
+    loadPixels();   
     for (int i=0; i<width; i++) {
       for (int j=0; j<height; j++) {
         if(map[i][j])
